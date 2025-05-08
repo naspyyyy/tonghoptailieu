@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chia Sẻ Tài Liệu Học Tập</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .category {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        .category h2 {
+            margin-top: 0;
+        }
+        .file-link {
+            display: block;
+            padding: 8px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            margin: 5px 0;
+        }
+        .file-link:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chia Sẻ Tài Liệu Học Tập</h1>
+    </header>
+    <div class="container">
+        <div class="category">
+            <h2>Toán Học</h2>
+            <a href="math-slides.pdf" class="file-link" target="_blank">Tài liệu Slide Toán</a>
+            <a href="math-notes.pdf" class="file-link" target="_blank">Tài liệu Ghi chú Toán</a>
+        </div>
+        <div class="category">
+            <h2>Hóa Học</h2>
+            <a href="chemistry-notes.pdf" class="file-link" target="_blank">Tài liệu Ghi chú Hóa Học</a>
+        </div>
+        <div class="category">
+            <h2>Vật Lý</h2>
+            <a href="physics-lecture.pdf" class="file-link" target="_blank">Tài liệu Bài giảng Vật Lý</a>
+        </div>
+    </div>
+</body>
+</html>
